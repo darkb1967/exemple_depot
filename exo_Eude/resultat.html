@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resultat formulaire</title>
+    <script defer src="./assets/js/custom-elements.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script defer src="./resultatForm.js"></script>
+</head>
+<style>
+table, td, th {
+  border:1px solid black;
+}
+</style>
+<body>
+<div id="result-table">
+                <table >
+                    <tr>
+                        <th scope="row">Nom</td>
+                        <td id="nom"></td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">Prenom</td>                      
+                        <td id="prenom"></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Age</th>
+                        <td id="age"></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">email</td>
+                        <td id="email"></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">genre</td>
+                        <td id="genre"></td>
+                    </tr>
+                   
+                    <tr>
+                        <th scope="row">competences</td>
+                        <td id="competences"></td>
+                    </tr>
+
+                   <tr>
+                        <th scope="row">experiences</td>
+                        <td id="exp"></td>
+                    </tr>
+                </table>
+                <br>
+    </div>
+
+    <button id="refresh" type="button" onClick="clickEvent();" >Effacer local storage</button>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+*{
+    --bleu : #008CBA;
+    --gris : #555555;
+    --vert : #4CAF50;
+}
+
+h1{
+    margin: 5px;
+    color: var(--bleu);
+}
+
+hgroup{
+    display: flex;
+    justify-content: flex-start;
+}
+
+small{
+     display: flex;
+     align-items: center;
+    font-size: 10px;
+    background-color: #e7e7e7;
+    margin: 10px;
+}
+
+header, nav, table {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+nav{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 10px 0 ;
+}
+
+table{
+    margin-top: 10px; 
+}
+
+.nomimg #text{
+    background-color: var(--bleu);
+    color: white;
+}
+
+nav .button {
+    display: flex;
+    align-content: flex-start;
+    padding-left: 0;
+    list-style-type : none;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.li1, .li2, .li3{
+
+        padding: 10px 30px;
+        text-decoration: none;
+        background-color: var(--bleu);
+        border-radius: 10px;
+        color: white;
+}
+
+nav .li1{
+        background-color: var(--bleu);
+
+}
+
+nav .li2{
+    background-color: var(--vert);
+
+}
+
+nav .li3{
+    background-color: var(--gris);
+}
+
+table{
+    border: 1px solid red;
+    border-collapse: separate;
+}
+
+th, td{
+    border: 1px solid blue ;
+}
+
+th{
+    background-color: lightgray;
+}
+
+td span {
+    background-color: rgb(83, 136, 83);
+    color: white;
+    padding: 2px;
+    display: block;
+
+}
+
+
+
+body{
+
+            width :100% ;
+
+}
+
+
+#global{
+
+            width :80% ;
+
+            margin :auto ;
+
+            padding :25px ;
+
+            background :#3c3c3c ;
+
+}
+
+
+header{
+
+            width :100% ;
+
+}
+ 
+
+#menu-gauche{
+
+            width :20% ;
+
+            float :left ;
+
+}
+ 
+
+#contenu{
+
+            width :60% ;
+
+            float :left ;
+
+}
+
+
+#sidebar-droite{
+
+            width :20% ;
+
+            float :left ;
+
+}
+
+
+footer{
+
+            width :100%
+
+}

@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%; /* 10px */
+   
+}
+
+body{
+    background-image: url("../img/bois.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1rem solid white;
+}
+
+section button{
+    display: inline;
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+#tailleplus{
+margin: 10px 45% 10px 0%;
+}
+
+#taillemoins{
+margin: -40px -50% 10px 2%;
+}
+
+#ttext {
+    background-color: rgb(169, 218, 91);
+    font-size: 2.5rem;
+}
+
+
+h1{
+    background-color: blue;
+    color: rgb(169, 218, 91);
+    font-size: 2.5rem;
+    margin-bottom: .2rem;
+}
+
+p{
+    color: red;
+    font-weight: bold;
+    background-color: aquamarine;
+    font-size: 16px;
+}
+
+button{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25%;
+    font-size: 2rem;
+}
+
+#fsize{
+    width: 20%;
+}
+
+
+#chien a{
+    width: 55rem;
+    height: 50rem;
+    background-size: cover;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-image: url("../img/logoChien.jpg");
+}
+#an{
+    background-color: transparent;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 25rem;
+    margin-top: 26rem;
+}
+#chien a:hover{   
+    width: 55rem;
+    height: 50rem;
+    background-image: url("../img/backChien.jpg");
+}
+
+.bouton #button{
+    display: block;
+    width: 10rem;
+    
+}

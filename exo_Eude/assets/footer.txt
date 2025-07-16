@@ -1,0 +1,11 @@
+
+
+
+    <footer>
+        <p id="copyright">Copyright 2025 by Olivier</p>
+
+        <div class="btn-primary">
+            <a href="#">Haut de Page</a>
+        </div>
+
+    </footer>

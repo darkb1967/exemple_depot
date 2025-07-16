@@ -1,0 +1,86 @@
+/**, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}*/
+
+
+body{
+    height: 100vh;
+    background-color: rgb(75, 96, 211);
+}
+
+.gallery {
+ /*height: 100vh;*/
+display: flex;
+flex-wrap: wrap;
+width: 80%;
+max-width: 1300px;
+margin: 70px auto 70px;
+gap: 5px
+/*flex-flow: row wrap;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+gap: 5px
+border 1px solid black; */
+}
+
+.gallery img {
+width: 200px;
+height: 200px;
+margin: 10px;
+object-fit: cover;
+}
+
+.image-container {
+position: relative;
+width: 200px;
+height: 200px;
+}
+
+.overlay {
+position: absolute;
+top: 10px;
+/*bottom: -50px;*/
+left: 10px;
+/*right: -50px;*/
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: 0.5s ease;
+background-color: rgba(0,0,0,0.5);
+}
+
+.image-container:hover .overlay {
+opacity: 1;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+/*  responsive mais pas le bon format d'images
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+.gallery {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (max-width: 400px) {
+.gallery {
+grid-template-columns: 1fr;
+}
+}*/

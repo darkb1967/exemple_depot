@@ -1,0 +1,23 @@
+
+<header>
+       <div class="bg-img">
+            <div class="container">
+                <div class="topnav">
+                        <a href="./index.html">Home</a>
+                        <a href="./page1.html">Photo Lac</a>
+                        <a href="./page2.html">Header Section</a>
+                        <a href="./mini.html">Mini pages 1</a>
+                        <a href="./carre.html">Mini pages 2</a>
+                        <a href="./exo.html">Exo</a>
+                        <a href="./responsive.html">Responsive</a>
+                        <a href="./Galerie.html">Galerie Photos</a>
+                        <a href="./echecs.html">Echecs</a>
+                        <a href="./galaxian.html">Galaxian</a>
+                        <a href="./formulaire.html">Formulaire</a>
+                        <a href="#copyright">Copyright</a>
+                </div>
+            </div>
+       </div>
+        <h1>Randonnées Alsace</h1>
+    </header>
+

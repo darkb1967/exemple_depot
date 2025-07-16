@@ -1,0 +1,72 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/form.css">
+    <script defer src="./assets/js/custom-elements.js"></script>
+    <script defer src="./assets/js/verif.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+   
+<form id="myForm" method="post" action="./resultat.html">
+  <fieldset>
+    <legend>Informations personnelles :</legend>
+    <div class="champ">
+      <label for="nom">Nom de famille :</label>
+      <input type="text" id="nom" name="nom" value="Schmitt" minlength="2" maxlength="25" required>
+    </div>
+    <div class="champ">
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" value="Bernard" minlength="2" maxlength="25" required>
+    </div>
+    <div class="champ">
+      <label for="mail">Adresse mail :</label>
+      <input type="email" id="email" name="email" value="Schmit@free.fr" required>
+    </div>
+    <div class="champ">
+      <label for="age">Age :</label>
+      <input type="number" id="age" name="age" value="32" min="16" max="99">
+     </div>
+    <div class="champ">
+      <input type="radio" id="homme" name="sexe" value="homme">
+      <label for="homme">Homme</label>
+      <input type="radio" id="femme" name="sexe" value="femme">
+      <label for="femme">Femme</label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Compétences / expérience :</legend>
+    <div class="champ">
+      <input type="checkbox" id="debutant" name="competences" value="debutant">
+      <label for="debutant">Débutant</label>
+      <input type="checkbox" id="intermediaire" name="competences" value="intermediaire">
+      <label for="intermediaire">Intermédiaire</label>
+      <input type="checkbox" id="confirme" name="competences" value="confirme">
+      <label for="confirme">Confirmé</label>
+      <input type="checkbox" id="trail" name="competences" value="trail">
+      <label for="trail">Trail</label>
+      <input type="checkbox" id="rando" name="competences" value="rando">
+      <label for="rando">Randonnée</label>
+    </div>
+    <div class="champ">
+      <textarea name="exp" placeholder="Décrivez votre expérience" maxlength="500"></textarea>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Validation :</legend>
+    <div class="champ">
+
+      <input type="password" id="mdp" name="mdp" class="form-control" placeholder="yes" aria-describedby="pwdHelpBlock" required>
+      <button type="button" class="eye" style="color:#131212;background-color:#e1e4dd" onclick="togglePwd('mdp');"><i class="fas fa-eye"></i></button>
+
+    </div>
+
+    <input type="submit" type="submit" value="page resultats">
+
+  </fieldset>
+</form>
+
+</body>
+
+
+

@@ -1,0 +1,85 @@
+* {box-sizing: border-box;}
+
+body {font-family: Arial, Helvetica, sans-serif}
+
+
+
+.bg-img {
+  /* Image */
+  background-image: url("/img/Mountains-PNG-HD.png");
+
+  min-height: 200px;
+
+  /* Centrer et modifier l'image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Mise en avant navbar */
+  position: relative;
+}
+
+/* Position du navbar container a l'interieur de image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(10, 0, 10);
+    font-size: 50px;
+}
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(106, 114, 219);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-primary{
+        /*text-align: end;*/
+        color: rgb(231, 239, 240);
+        text-align: right;
+}
+
+.btn-primary:hover{ color: #ddd;}
+
+/* 
+.bouton{
+color: #137e37; /* couleur du texte 
+cursor:pointer; /* apparence du curseur 
+display: inline-block;
+border: solid 4px black; /* applique une bordure noire 
+padding: 5px; /* espace entre la bordure et le texte 
+right:1em;
+} */
