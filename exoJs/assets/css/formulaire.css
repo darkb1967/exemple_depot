@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    border-color: blue;
+    width: 800px;
+    margin: 0;
+}
+
+#myDate{
+    border: 1px solid blue;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#calculate{
+    color: blue;
+    border: 1px solid currentColor;
+    padding: 6px;
+    background-color: beige;
+}
+
+#result span{
+    font-weight: bold;
+    color: blue;
+}
