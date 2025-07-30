@@ -20,7 +20,7 @@ function calculateAge(){
     userDate = new Date(userDate);
     today = new Date();
 
-    if(userDate <= today){
+    if(userDate >= today){
         result.textContent ="Erreur : Sélectionnez une date dans le passé.";
         return;
     }
@@ -28,7 +28,13 @@ function calculateAge(){
     let dateFr = userDate.toLocaleDateString('fr-FR');
     let timeFr = userDate.toLocaleTimeString('fr-FR');
 
+    /*const date = new Date();
+    const options = { timeZone: 'Europe/Paris', timeZoneName: 'short' };
+    const formatter = new Intl.DateTimeFormat('fr-FR', options);
+    console.log(formatter.format(date));*/
+    
     console.log(timeFr);
+    
     
     result.innerHTML = "vous etes née le <span>"+dateFr+"</span> à <span>"+ timeFr+"</span>";
 

@@ -1,0 +1,13 @@
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label, input {
+    flex-basis: 40%;
+}
+
+label{
+    display: inline-block;
+}

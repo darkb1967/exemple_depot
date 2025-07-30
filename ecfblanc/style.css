@@ -1,0 +1,81 @@
+:root {
+    --color1: darkblue;
+    --color2: yellow;
+    --color3: darkorange;
+    --color4: lightcyan;
+    --color5: darkgrey; 
+    --color6: #FFFFFF33; /* Blanc transparent */
+}
+
+
+* {
+    box-sizing: border-box;   
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color2);
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, #result, footer {
+    text-align: center;
+}
+
+
+form{
+    border-radius: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: solid 1px darkorange;
+    background-color: var(--color6);
+
+}
+
+form > div {
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+
+label{
+    display: inline-block;
+    width: 24rem;
+   
+}
+
+input {
+    background-color: var(--color6);
+    border: solid 1px darkorange;
+    font-size: 2rem;
+    height: 3rem;
+    width: 24rem;
+    color: val(--color5);
+}
+
+button{
+    border: solid 1px darkorange;
+    background-color: var(--color6);
+    font-size: 2rem;
+    width: 24rem;
+    height: 3rem;
+    color: white;
+}
+
+#validate{
+        width: 15rem;
+}
+
+#next {
+        text-align: center;
+}
+

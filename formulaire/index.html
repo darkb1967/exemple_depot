@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formulaire.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <main>
+        <form action="post">
+            <fieldset>
+                <legend>Etat civil</legend>
+
+                <label for="nom">Nom: *</label>
+                <input type="text" id="nom" required placeholder="Nom de famille" title="Inscrit ton nom" pattern="^[a-zA-Z]*">
+                <label for="prenom">Prenom: *</label>
+                <input type="text" id="prenom" required placeholder="Prénom" title="Inscrit ton prénom">
+                <label>date de naissance *</label>
+                <input type="date" id="ddn" required>
+
+            </fieldset>
+
+            <fieldset>
+            <legend>Coordonnées</legend>
+
+            <label for="telephone">Téléphone *</label>
+            <input type="tel" id="telephone" required>
+            <label for="">Numéro de rue *</label>
+            <input type="number" min="1" max="99999" step="1" id="adress_num">
+                <select>
+                    <option selected></option>
+                    <option>Bis</option>
+                    <option>C</option>
+                    <option>TER</option>
+                    <option>Alpha</option>
+                </select>
+
+            <label>Nom de la rue *</label>
+            <input type="text">
+            <label>Code postal *</label>
+            <input type="text">
+            <label>Commune *</label>
+            <input type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>Information complementaire</legend>
+                <label for="infos">Saisissez les sports vous pratiquez</label>
+                <textarea cols="100" rows="10" id="infos" placeholder="votre texte"></textarea>
+            </fieldset>
+            <input type="checkbox" id="majeur" required> <label for="majeur">Je certifie être majeur</label>
+            <input type="checkbox" id="cgu" required> <label for="">J'accepte les conditions d'utilisation</label>
+            <input type="checkbox" id="rgpd" required checked> <label for="">J'ai pris connaissance de la politique RGPD</label>
+            <hr>
+            
+            <button type="submit">Valider</button>
+        </form>
+    </main>
+    
+</body>
+</html>
